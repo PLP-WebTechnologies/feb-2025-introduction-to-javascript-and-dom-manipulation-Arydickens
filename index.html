@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week 5 Assignment</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <h1 id="main-heading">Introduction to JavaScript and DOM Manipulation</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <p id="intro-text">This is a paragraph to be updated dynamically.</p>
+            <button onclick="changeText()">Change Text</button>
+        </section>
+
+        <section>
+            <p id="color-box">click the button below to  change my background color!</p>
+            <button onclick="changeColor()">Change Color</button>
+        </section>
+
+        <section>
+            <button onclick="toggleElement()">Add/Remove Element</button>
+            <div id="toggle-container"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Dickens</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
